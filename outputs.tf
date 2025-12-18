@@ -23,15 +23,15 @@ output "address_prefixes" {
   value       = azurerm_subnet.default.address_prefixes
 }
 
-output "enforce_private_link_endpoint_network_policies" {
-  description = "A boolean."
-  value       = azurerm_subnet.default.enforce_private_link_endpoint_network_policies
-}
+# output "enforce_private_link_endpoint_network_policies" {
+#   description = "A boolean."
+#   value       = azurerm_subnet.default.enforce_private_link_endpoint_network_policies
+# }
 
-output "enforce_private_link_service_network_policies" {
-  description = "A boolean."
-  value       = azurerm_subnet.default.enforce_private_link_service_network_policies
-}
+# output "enforce_private_link_service_network_policies" {
+#   description = "A boolean."
+#   value       = azurerm_subnet.default.enforce_private_link_service_network_policies
+# }
 
 output "service_endpoint_policy_ids" {
   description = "A list of the policy ids."
