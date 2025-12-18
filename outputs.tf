@@ -47,6 +47,3 @@ output "virtual_network_name" {
   description = "A string to indicate the name of the virtual network."
   value       = azurerm_subnet.default.virtual_network_name
 }
-output "address_prefixes" {
-  value = azurerm_subnet.default.address_prefixes
-}
