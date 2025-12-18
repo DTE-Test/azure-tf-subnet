@@ -13,10 +13,10 @@ output "resource_group_name" {
   value        = azurerm_subnet.default.resource_group_name
 }
 
-output "address_prefix" {
-  description = "A string to indicate the used prefix."
-  value       = azurerm_subnet.default.address_prefix
-}
+# output "address_prefix" {
+#   description = "A string to indicate the used prefix."
+#   value       = azurerm_subnet.default.address_prefix
+# }
 
 output "address_prefixes" {
   description = "A list of the used prefixes."
